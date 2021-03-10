@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
+import App from "./App";
 
-import Game from "./components/game";
-
-ReactDOM.render(<Game numberOfPlayers={2} />, document.getElementById("root"));
+ReactDOM.render(<App></App>, document.getElementById("root"));
